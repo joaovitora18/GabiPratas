@@ -1,0 +1,132 @@
+@charset "utf8";
+
+.fundo{
+    background: url('../images/GabiPratas.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background: rgba(228, 190, 110, 0.582);
+}
+
+.logo img{
+    width: 250px;
+    height: 150px;
+}
+
+:root{
+    --cor-fundo : rgba(206, 238, 238, 0.822);
+    --cor-hover : rgb(150, 180, 235);
+    --cor-primaria : rgb(0, 0, 0);
+}
+
+.dp-menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul{
+    margin: auto;
+    width: auto;
+    list-style: none;
+    padding: 0;
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover{
+    background-color: var(--cor-hover);
+
+}
+
+.dp-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+}
+
+.dp-menu ul ul{
+    width: 150px;
+}
+
+.dp-menu ul ul li a{
+    display: block;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.produtos{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto{
+    background-color: rgba(255, 255, 255, 0.253);
+}
+
+.imgprod{
+    max-width: 250px;
+    max-height: 250px;
+    background-color: rgba(250, 235, 215, 0.685);
+}
+/* .btn{
+    border: 1px solid #0066cc;
+    background-color: #0099cc;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+.btn:hover{
+    border: 1px solid #0099cc;
+    background-color: #00aacc;
+    color: #ffffff;
+    padding: 5px 10px;
+} */
+
+.precos{
+    height: 60px;
+    align-items: flex-end;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn:disabled,btn[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.btn{
+}
+
