@@ -75,11 +75,28 @@
     display: block;
 }
 
+#pers{
+    text-align: center;
+    text-decoration:overline;
+    font-size: 20px;
+}
+
 .titulo{
+    font-size:xx-large;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-decoration: underline;
+}
+
+.subtitulo{
+    margin: 15px auto auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    font-style:unset;
 }
 .produtos{
     margin: auto;
@@ -88,10 +105,12 @@
 }
 
 .produto{
+    border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.253);
 }
 
 .imgprod{
+    border-radius: 15px 15px 0 0 ;
     max-width: 250px;
     max-height: 250px;
     background-color: rgba(250, 235, 215, 0.685);
